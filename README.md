@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install vue-domain-name-extractor
 ```
 
 ### Compiles and hot-reloads for development
