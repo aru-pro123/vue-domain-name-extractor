@@ -1,13 +1,26 @@
 {
   "name": "vue-domain-name-extractor",
+  "description": "A simple root domain name extractor from any kind of URL without subdomains",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author":{
+    "name" : "dev@arunya",
+    "email": "dev.arunya@gmail.com"
+  },
+  "repository": "https://github.com/aru-pro123/vue-domain-name-extractor",
+  "bugs": "https://github.com/aru-pro123/vue-domain-name-extractor/issues",
+  "keywords": ["vue", "domain", "component", "url"],
+  "license": "MIT",
+  "files":["dist/*"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-domain-name-extractor ./src/install.js",
     "lint": "vue-cli-service lint"
   },
+  "main" : ".dist/vue-domain-name-extractor.common.js",
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
